@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+
+:root {
+	--TABLE-MAX-HEIGHT: 75vh;
+	--TABLE-MAX-WIDTH: 70vw;
+}
+
+.musicTableContainer {
+	display: inline-block;
+	
+	max-height: var(--TABLE-MAX-HEIGHT);
+	max-width: var(--TABLE-MAX-WIDTH);
+	
+	overflow-y: scroll;	
+	scrollbar-width: thin;
+}
+
+.musicTable {
+	display: inline-block;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.musicTable > thead > tr,
+.musicTable > thead > tr > th,
+.musicTable > tbody > tr,
+.musicTable > tbody > tr > td {
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.musicTable > thead > tr > th:nth-child(1),
+.musicTable > tbody > tr > td:nth-child(1) {
+	text-align: center;
+}
+
+.musicTable > thead > tr > th:nth-child(n+2),
+.musicTable > tbody > tr > td:nth-child(n+2) {
+   text-align: left;
+}

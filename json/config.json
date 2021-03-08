@@ -1,0 +1,13 @@
+{
+    "visualizationType": "centerDoubleBar",
+    "brightness": "0.2",
+    "ampThreshold": "45",
+    "ledPerAmp": "3.8",
+    "saturation": "85",
+    "lightness": "45",
+    "hueRange": [
+        "0",
+        "360"
+    ],
+    "colorChangeType": "loop"
+}

@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+.musicPlayer {
+	display: inline-block;
+	width: 50vw;
+}
+
+.playButtonsContainer {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.playSongButton {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.playShuffleButton {
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.settingsLink{
+}
